@@ -85,7 +85,6 @@
       }
     },
     methods: {
-     
        //注册提交的方法
        submitRegister() {
          registerApi.registerMember(this.params)

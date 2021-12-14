@@ -49,9 +49,9 @@
                         <i class="c-fff fsize12 f-fA">免费</i>
                       </span>
                       <span class="fl jgAttr c-ccc f-fA">
-                        <i class="c-999 f-fA">9634人学习</i>
+                        <i class="c-999 f-fA">{{course.buyCount}} 人学习</i>
                         |
-                        <i class="c-999 f-fA">9634评论</i>
+                        <i class="c-999 f-fA">{{course.viewCount}} 评论</i>
                       </span>
                     </section>
                   </div>
@@ -81,12 +81,12 @@
                 <li v-for="teacher in teacherList" :key="teacher.id">
                   <section class="i-teach-wrap">
                     <div class="i-teach-pic">
-                      <a href="/teacher/1" :title="teacher.name">
+                      <a :href='"/teacher/"+teacher.id' :title="teacher.name">
                         <img :alt="teacher.name" :src="teacher.avatar">
                       </a>
                     </div>
                     <div class="mt10 hLh30 txtOf tac">
-                      <a href="/teacher/1" :title="teacher.name" class="fsize18 c-666">{{teacher.name}}</a>
+                     <a :href='"/teacher/"+teacher.id' :title="teacher.name" class="fsize18 c-666">{{teacher.name}}</a>
                     </div>
                     <div class="hLh30 txtOf tac">
                       <span class="fsize14 c-999">{{teacher.career}}</span>
@@ -138,22 +138,23 @@ export default {
     }
   },
   created() {
- //调用查询banner的方法
+    //调用查询banner的方法
     this.getBannerList()
     //调用查询热门课程和名师的方法
-    this.getHotCourseTeacher()
+    // this.getHotCourseTeacher()
   },
   methods:{
     //查询热门课程和名师
     getHotCourseTeacher() {
       index.getIndexData()
         .then(response => {
-          this.eduList = response.data.data.eduList
+          this.eduList = response.data.data.courseList
           this.teacherList = response.data.data.teacherList
         })
     },
     //查询banner数据
     getBannerList() {
+      console.log("1111")
       banner.getListBanner()
         .then(response => {
           this.bannerList = response.data.data.list

@@ -2,71 +2,71 @@
   {
     "name": "course",
     "path": "/course",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\course\\\\index.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\course\\\\index.vue",
     "chunkName": "pages/course/index",
-    "_name": "_63e723b6"
+    "_name": "_e8dfa9b4"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\login.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
-    "_name": "_4a239c92"
+    "_name": "_31490090"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\register.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\register.vue",
     "chunkName": "pages/register",
-    "_name": "_29871076"
+    "_name": "_0f24de24"
   },
   {
     "name": "teacher",
     "path": "/teacher",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\teacher\\\\index.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\teacher\\\\index.vue",
     "chunkName": "pages/teacher/index",
-    "_name": "_5c654a52"
+    "_name": "_4f592d71"
   },
   {
     "name": "teacher-player-vid",
     "path": "/teacher/player/:vid?",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\teacher\\\\player\\\\_vid.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\teacher\\\\player\\\\_vid.vue",
     "chunkName": "pages/teacher/player/_vid",
-    "_name": "_05061523"
+    "_name": "_ac7d7db8"
   },
   {
     "name": "course-id",
     "path": "/course/:id",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\course\\\\_id.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\course\\\\_id.vue",
     "chunkName": "pages/course/_id",
-    "_name": "_25b9b5cd"
+    "_name": "_714a81e4"
   },
   {
     "name": "orders-oid",
     "path": "/orders/:oid?",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\orders\\\\_oid.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\orders\\\\_oid.vue",
     "chunkName": "pages/orders/_oid",
-    "_name": "_7b19f152"
+    "_name": "_0d9a1031"
   },
   {
     "name": "pay-pid",
     "path": "/pay/:pid?",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\pay\\\\_pid.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\pay\\\\_pid.vue",
     "chunkName": "pages/pay/_pid",
-    "_name": "_1abb8e7c"
+    "_name": "_4bc69e43"
   },
   {
     "name": "teacher-id",
     "path": "/teacher/:id",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\teacher\\\\_id.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\teacher\\\\_id.vue",
     "chunkName": "pages/teacher/_id",
-    "_name": "_51f48d8c"
+    "_name": "_6985d819"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "E:\\\\SpringCloud_WORK\\\\vue-front-2020\\\\pages\\\\index.vue",
+    "component": "E:\\\\SpringCloud_WORK\\\\VUE-NUXT-GULI\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_11468ea0"
+    "_name": "_1db3dca1"
   }
 ]

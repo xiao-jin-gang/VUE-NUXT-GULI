@@ -3,16 +3,16 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _63e723b6 = () => interopDefault(import('..\\pages\\course\\index.vue' /* webpackChunkName: "pages/course/index" */))
-const _4a239c92 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _29871076 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
-const _5c654a52 = () => interopDefault(import('..\\pages\\teacher\\index.vue' /* webpackChunkName: "pages/teacher/index" */))
-const _05061523 = () => interopDefault(import('..\\pages\\teacher\\player\\_vid.vue' /* webpackChunkName: "pages/teacher/player/_vid" */))
-const _25b9b5cd = () => interopDefault(import('..\\pages\\course\\_id.vue' /* webpackChunkName: "pages/course/_id" */))
-const _7b19f152 = () => interopDefault(import('..\\pages\\orders\\_oid.vue' /* webpackChunkName: "pages/orders/_oid" */))
-const _1abb8e7c = () => interopDefault(import('..\\pages\\pay\\_pid.vue' /* webpackChunkName: "pages/pay/_pid" */))
-const _51f48d8c = () => interopDefault(import('..\\pages\\teacher\\_id.vue' /* webpackChunkName: "pages/teacher/_id" */))
-const _11468ea0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _e8dfa9b4 = () => interopDefault(import('..\\pages\\course\\index.vue' /* webpackChunkName: "pages/course/index" */))
+const _31490090 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _0f24de24 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _4f592d71 = () => interopDefault(import('..\\pages\\teacher\\index.vue' /* webpackChunkName: "pages/teacher/index" */))
+const _ac7d7db8 = () => interopDefault(import('..\\pages\\teacher\\player\\_vid.vue' /* webpackChunkName: "pages/teacher/player/_vid" */))
+const _714a81e4 = () => interopDefault(import('..\\pages\\course\\_id.vue' /* webpackChunkName: "pages/course/_id" */))
+const _0d9a1031 = () => interopDefault(import('..\\pages\\orders\\_oid.vue' /* webpackChunkName: "pages/orders/_oid" */))
+const _4bc69e43 = () => interopDefault(import('..\\pages\\pay\\_pid.vue' /* webpackChunkName: "pages/pay/_pid" */))
+const _6985d819 = () => interopDefault(import('..\\pages\\teacher\\_id.vue' /* webpackChunkName: "pages/teacher/_id" */))
+const _1db3dca1 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -32,43 +32,43 @@ export const routerOptions = {
 
   routes: [{
     path: "/course",
-    component: _63e723b6,
+    component: _e8dfa9b4,
     name: "course"
   }, {
     path: "/login",
-    component: _4a239c92,
+    component: _31490090,
     name: "login"
   }, {
     path: "/register",
-    component: _29871076,
+    component: _0f24de24,
     name: "register"
   }, {
     path: "/teacher",
-    component: _5c654a52,
+    component: _4f592d71,
     name: "teacher"
   }, {
     path: "/teacher/player/:vid?",
-    component: _05061523,
+    component: _ac7d7db8,
     name: "teacher-player-vid"
   }, {
     path: "/course/:id",
-    component: _25b9b5cd,
+    component: _714a81e4,
     name: "course-id"
   }, {
     path: "/orders/:oid?",
-    component: _7b19f152,
+    component: _0d9a1031,
     name: "orders-oid"
   }, {
     path: "/pay/:pid?",
-    component: _1abb8e7c,
+    component: _4bc69e43,
     name: "pay-pid"
   }, {
     path: "/teacher/:id",
-    component: _51f48d8c,
+    component: _6985d819,
     name: "teacher-id"
   }, {
     path: "/",
-    component: _11468ea0,
+    component: _1db3dca1,
     name: "index"
   }],
 
